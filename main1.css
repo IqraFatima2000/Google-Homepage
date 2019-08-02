@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: sans-serif;
+}
+.header{
+    height: 50px;
+    width: 100%;
+}
+.header a img{
+    width: 35px;
+    height: 35px;
+}
+a .signIn{
+    margin-top: 90px;
+}
+.header a{
+    font-size: 15px;
+}
+.header a {
+    margin: 15px;
+    margin-top:20px;
+    
+    float: right;
+    color:black;
+    text-decoration: none;
+    
+}
+.header a:hover{
+    text-decoration :underline;
+}
+
+
+
+.homePage .logo img{
+    height: 250px;
+    width: 500px;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+.wrapper{
+    justify-content: center;
+    align-items: center;
+}
+.searchBox{
+    width: 50%;
+    position: relative;
+}
+.searchBox input[type="text"]{
+    width: 400px;
+    padding: 8px;
+    padding-right: 60px;
+    margin-left: 500px;
+    box-sizing: border-box;
+   border: 1px solid gray;
+   border-radius: 2px;
+   font-size: 18px;
+   outline: none;
+}
+.searchBox input:hover{
+   font-size: 20px;
+}
+
+.fa-search{
+    position: absolute;
+    top: 10px;
+    left: 870px;
+   color: gray;
+   font-size: 100%;
+}
+input :hover
+{
+    width: 600px;
+}
+.Buttons{
+    margin-left: 550px; 
+    margin-top: 15px;   
+     
+}
+.Buttons #first, .Buttons #second{
+    margin-right: 5px;
+    padding: 5px 20px;
+    border: 1px solid gray;
+    background-color: gainsboro;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.8s;
+    outline: none;
+}
+#first:hover, #second:hover{
+    font-size: 16px;
+}
+
